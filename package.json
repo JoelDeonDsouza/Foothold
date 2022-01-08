@@ -1,0 +1,21 @@
+{
+  "name": "foothold",
+  "version": "1.0.0",
+  "description": "Social media site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "Joel Deon Dsouza",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.1",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
