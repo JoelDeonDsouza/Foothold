@@ -70,7 +70,6 @@ module.exports = {
         });
       }
       //hash the password
-      //auth token
       password = await bcrypt.hash(password, 12);
 
       const newUser = new User({
@@ -83,6 +82,7 @@ module.exports = {
 
       const res = await newUser.save();
 
+      //auth token
       const token = generateToken(res);
 
       return {
