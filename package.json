@@ -4,6 +4,7 @@
   "description": "Social media site.",
   "main": "index.js",
   "scripts": {
+    "server": "node index",
     "start": "nodemon index"
   },
   "author": "Joel Deon Dsouza",
