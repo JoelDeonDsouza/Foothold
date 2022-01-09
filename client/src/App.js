@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Footholds</h1>
+      <h1>Footholds 1</h1>
     </div>
   );
 }
